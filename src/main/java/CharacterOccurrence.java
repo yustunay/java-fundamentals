@@ -5,13 +5,19 @@ import java.util.stream.Collectors;
 
 public class CharacterOccurrence {
     public static void main(String[] args) {
-        String input = "yahyaustunay";
+        String input = "yahyaustunay"; //subsrCibetoinTerviewmania
         System.out.println(findOccurrences(input));
+        System.out.println(findOccurrencesV2(input));
         System.out.println(findDuplicatedElements(input));
+        System.out.println(getFirstNonRepeatedCharacter(input));
     }
 
-    private static Map<String,Long> findOccurrences(String input) {
-        return Arrays.asList(input.split(""))
+    private static Map<String, Long> findOccurrences(String input) {
+        return Arrays.asList(
+                        input
+                                .toLowerCase()
+                                .split("")
+                )
                 .stream()
                 .collect(
                         Collectors.groupingBy(
@@ -21,8 +27,15 @@ public class CharacterOccurrence {
                 );
     }
 
-    private static Map<String,Long> findDuplicatedElements(String input) {
-             return Arrays.asList(input.split(""))
+    private static Map<Character, Long> findOccurrencesV2(String input) {
+        return input.toLowerCase()
+                .chars()
+                .mapToObj(s -> (char) s)
+                .collect(Collectors.groupingBy(s -> s, Collectors.counting()));
+    }
+
+    private static Map<String, Long> findDuplicatedElements(String input) {
+        return Arrays.asList(input.split(""))
                 .stream()
                 .collect(
                         Collectors.groupingBy(
@@ -33,6 +46,24 @@ public class CharacterOccurrence {
                 .entrySet()
                 .stream()
                 .filter(entry -> entry.getValue() > 1)
-                .collect(Collectors.toMap(Map.Entry::getKey,Map.Entry::getValue));
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static Character getFirstNonRepeatedCharacter(String input) {
+        Map<Character, Long> occurrences = input
+                .toLowerCase()
+                .chars()
+                .mapToObj(s -> (char) s)
+                .collect(Collectors.groupingBy(
+                        Function.identity(),
+                        Collectors.counting()
+                ));
+
+        return input.toLowerCase()
+                .chars()
+                .mapToObj(s -> (char) s)
+                .filter(v -> occurrences.get(v) == 1)
+                .findFirst()
+                .orElseGet(null);
     }
 }
