@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="941d8089-3c6f-41c9-8361-9b4750f50b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MatrixDiagonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExcelColumns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TheatreRows.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,14 +60,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MatrixDiagonal">
-    <configuration name="ArrayPairIndicesTargetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPairIndicesTargetSum" />
-      <module name="JavaFundamentals" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TheatreRows">
     <configuration name="ContinuousSequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ContinuousSequences" />
       <module name="JavaFundamentals" />
@@ -73,8 +68,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MatrixDiagonal" />
+    <configuration name="ExcelColumns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExcelColumns" />
+      <module name="JavaFundamentals" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixDiagonalElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatrixDiagonalElements" />
       <module name="JavaFundamentals" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortenUrlKeyGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ShortenUrlKeyGenerator" />
+    <configuration name="TheatreRows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TheatreRows" />
       <module name="JavaFundamentals" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MatrixDiagonal" />
+        <item itemvalue="Application.TheatreRows" />
+        <item itemvalue="Application.ExcelColumns" />
+        <item itemvalue="Application.MatrixDiagonalElements" />
         <item itemvalue="Application.NthHighestNumber" />
         <item itemvalue="Application.ContinuousSequences" />
-        <item itemvalue="Application.ArrayPairIndicesTargetSum" />
-        <item itemvalue="Application.ShortenUrlKeyGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690029923033</updated>
       <workItem from="1690029924346" duration="968000" />
-      <workItem from="1690035999018" duration="14001000" />
+      <workItem from="1690035999018" duration="22853000" />
     </task>
     <servers />
   </component>
@@ -217,6 +219,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/NthHighestNumber.java</url>
           <line>21</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ExcelColumns.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
