@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="941d8089-3c6f-41c9-8361-9b4750f50b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/NthHighestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MatrixDiagonal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NthHighestNumber">
+  <component name="RunManager" selected="Application.MatrixDiagonal">
     <configuration name="ArrayPairIndicesTargetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayPairIndicesTargetSum" />
       <module name="JavaFundamentals" />
@@ -66,15 +66,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CharacterOccurrence" />
+    <configuration name="ContinuousSequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContinuousSequences" />
       <module name="JavaFundamentals" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousSequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContinuousSequences" />
+    <configuration name="MatrixDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatrixDiagonal" />
       <module name="JavaFundamentals" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixDiagonal" />
         <item itemvalue="Application.NthHighestNumber" />
         <item itemvalue="Application.ContinuousSequences" />
         <item itemvalue="Application.ArrayPairIndicesTargetSum" />
         <item itemvalue="Application.ShortenUrlKeyGenerator" />
-        <item itemvalue="Application.CharacterOccurrence" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690029923033</updated>
       <workItem from="1690029924346" duration="968000" />
-      <workItem from="1690035999018" duration="11764000" />
+      <workItem from="1690035999018" duration="14001000" />
     </task>
     <servers />
   </component>
