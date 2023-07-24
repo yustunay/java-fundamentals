@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="941d8089-3c6f-41c9-8361-9b4750f50b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690029923033</updated>
       <workItem from="1690029924346" duration="968000" />
-      <workItem from="1690035999018" duration="26825000" />
+      <workItem from="1690035999018" duration="27651000" />
     </task>
     <servers />
   </component>
@@ -228,32 +228,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java</url>
-          <line>63</line>
+          <line>68</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java</url>
-          <line>64</line>
+          <line>69</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java</url>
-          <line>67</line>
+          <line>72</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java</url>
-          <line>71</line>
+          <line>76</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java</url>
-          <line>97</line>
+          <line>102</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java</url>
-          <line>58</line>
+          <line>63</line>
           <properties class="DoubledLinkedListCustom" method="deleteOddNodes">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

@@ -34,7 +34,11 @@ public class DoubledLinkedListCustom {
             if (current.data == data) {
                 Node prevNode = current.prev;
                 Node nextNode = current.next;
-                prevNode.next = nextNode;
+                if (prevNode != null)
+                    prevNode.next = nextNode;
+                else
+                    head = nextNode;
+
                 nextNode.prev = prevNode;
             }
 
@@ -43,7 +47,8 @@ public class DoubledLinkedListCustom {
 
         if (current.data == data) {
             Node prevNode = current.prev;
-            prevNode.next = null;
+            if (prevNode != null)
+                prevNode.next = null;
         }
     }
 
@@ -98,10 +103,10 @@ public class DoubledLinkedListCustom {
         list.deleteOddNodes();
         list.printList();
 
-//        list.delete(21);
-//        list.printList();
+//       list.delete(21);
+//       list.printList();
 //
-//        list.delete(31);
-//        list.printList();
+//       list.delete(31);
+//       list.printList();
     }
 }
