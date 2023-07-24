@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="941d8089-3c6f-41c9-8361-9b4750f50b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExcelColumns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TheatreRows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,10 +57,13 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TheatreRows">
-    <configuration name="ContinuousSequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContinuousSequences" />
+  <component name="RunManager" selected="Application.DoubledLinkedListCustom">
+    <configuration name="DoubledLinkedListCustom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DoubledLinkedListCustom" />
       <module name="JavaFundamentals" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoubledLinkedListCustom" />
         <item itemvalue="Application.TheatreRows" />
         <item itemvalue="Application.ExcelColumns" />
         <item itemvalue="Application.MatrixDiagonalElements" />
         <item itemvalue="Application.NthHighestNumber" />
-        <item itemvalue="Application.ContinuousSequences" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690029923033</updated>
       <workItem from="1690029924346" duration="968000" />
-      <workItem from="1690035999018" duration="22853000" />
+      <workItem from="1690035999018" duration="26825000" />
     </task>
     <servers />
   </component>
@@ -224,6 +225,40 @@
           <url>file://$PROJECT_DIR$/src/main/java/ExcelColumns.java</url>
           <line>30</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java</url>
+          <line>58</line>
+          <properties class="DoubledLinkedListCustom" method="deleteOddNodes">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
