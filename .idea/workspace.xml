@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="941d8089-3c6f-41c9-8361-9b4750f50b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Fibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringReverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReverseString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Factorial">
+  <component name="RunManager" selected="Application.Fibonacci">
     <configuration name="DoubledLinkedListCustom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DoubledLinkedListCustom" />
       <module name="JavaFundamentals" />
@@ -83,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixDiagonalElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MatrixDiagonalElements" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fibonacci" />
       <module name="JavaFundamentals" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.DoubledLinkedListCustom" />
         <item itemvalue="Application.TheatreRows" />
         <item itemvalue="Application.ExcelColumns" />
-        <item itemvalue="Application.MatrixDiagonalElements" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690029923033</updated>
       <workItem from="1690029924346" duration="968000" />
-      <workItem from="1690035999018" duration="28718000" />
+      <workItem from="1690035999018" duration="29857000" />
     </task>
     <servers />
   </component>

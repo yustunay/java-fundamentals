@@ -1,6 +1,6 @@
 import java.util.stream.Collectors;
 
-public class StringReverser {
+public class ReverseString {
 
     public static String reverseString(String str) {
         int length = str.length() - 1;
