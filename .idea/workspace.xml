@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="941d8089-3c6f-41c9-8361-9b4750f50b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Frogs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SmallestPositiveMissingInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringReverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReverseString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,21 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fibonacci">
-    <configuration name="DoubledLinkedListCustom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoubledLinkedListCustom" />
-      <module name="JavaFundamentals" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExcelColumns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExcelColumns" />
-      <module name="JavaFundamentals" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.JumpingFrogs">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Factorial" />
       <module name="JavaFundamentals" />
@@ -91,8 +78,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TheatreRows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TheatreRows" />
+    <configuration name="JumpingFrogs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JumpingFrogs" />
+      <module name="JavaFundamentals" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="JavaFundamentals" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmallestPositiveMissingInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SmallestPositiveMissingInteger" />
       <module name="JavaFundamentals" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JumpingFrogs" />
+        <item itemvalue="Application.SmallestPositiveMissingInteger" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.DoubledLinkedListCustom" />
-        <item itemvalue="Application.TheatreRows" />
-        <item itemvalue="Application.ExcelColumns" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690029923033</updated>
       <workItem from="1690029924346" duration="968000" />
-      <workItem from="1690035999018" duration="29857000" />
+      <workItem from="1690035999018" duration="39228000" />
     </task>
     <servers />
   </component>
@@ -266,6 +267,51 @@
           <url>file://$PROJECT_DIR$/src/main/java/Factorial.java</url>
           <line>16</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/DoubledLinkedListCustom.java</url>
