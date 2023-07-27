@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -65,5 +66,19 @@ public class CharacterOccurrence {
                 .filter(v -> occurrences.get(v) == 1)
                 .findFirst()
                 .orElseGet(null);
+    }
+
+    public static List<String> getCharacters(String input, boolean duplicatedOnes) {
+        return Arrays.stream(input.toLowerCase()
+                        .split(""))
+                .collect(Collectors.groupingBy(
+                        Function.identity(),
+                        Collectors.counting()
+                ))
+                .entrySet()
+                .stream()
+                .filter(entry -> duplicatedOnes ? entry.getValue() > 1 : entry.getValue() == 1)
+                .map(Map.Entry::getKey)
+                .collect(Collectors.toList());
     }
 }

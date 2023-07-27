@@ -1,6 +1,7 @@
+import java.util.Arrays;
 import java.util.stream.Collectors;
 
-public class ReverseString {
+public class StringReverser {
 
     public static String reverseString(String str) {
         int length = str.length() - 1;
@@ -29,10 +30,15 @@ public class ReverseString {
                 .reduce("", (revStr, c) -> c + revStr);
     }
 
+    public static String reverseStringV4(String str) {
+        return Arrays.stream(str.split("")).reduce("", (l1, l2) -> l2.concat(l1));
+    }
+
     public static void main(String[] args) {
         System.out.println("1-Reverse string of ege ustunay is " + reverseString("ege ustunay"));
         System.out.println("2-Reverse string of ege ustunay is " + reverseStringV2("ege ustunay"));
         System.out.println("3-Reverse string of ege ustunay is " + reverseStringV3("ege ustunay"));
+        System.out.println("3-Reverse string of ege ustunay is " + reverseStringV4("ege ustunay"));
     }
 
 
