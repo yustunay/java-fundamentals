@@ -1,5 +1,3 @@
-import java.util.stream.IntStream;
-
 /*
 
 There are N blocks, numbered from 0 to N-1, arranged in a row. A couple of frogs were sitting
@@ -32,39 +30,43 @@ Write an efficient algorithm for the following assumptions:
 
  */
 
-
 public class JumpingFrogs {
 
     public static void main(String[] args) {
-        //int[] blocks = {2, 6, 8, 5};
-        //int[] blocks = {1, 5, 5, 2, 6};
-        int[] blocks = {1, 1};
-        int maxDistance = IntStream.range(0, blocks.length).boxed().mapToInt(i -> getDistance(i, blocks)).max().orElse(1);
-        System.out.println("Max Distance: " + maxDistance);
+        //int maxDistance = IntStream.range(0, blocks.length).map(i -> getDistance(i, blocks)).max().orElse(1);
+        System.out.println("{2, 6, 8, 5} --> Max Distance: " + getMaxDistance(new int[]{2, 6, 8, 5}));
+        System.out.println("{1, 5, 5, 2, 6} --> Max Distance: " + getMaxDistance(new int[]{1, 5, 5, 2, 6}));
+        System.out.println("{1 ,1} --> Max Distance: " + getMaxDistance(new int[]{1, 1}));
     }
 
-    public static int getDistance(int startInd, int[] blocks) {
-        int leftIndex = startInd;
-        for (int i = startInd; i > 0; i--) { //go left
-            if (blocks[i - 1] >= blocks[i]) {
-                leftIndex--;
-            } else {
-                break;
+    public static int getMaxDistance(int[] blocks) {
+        System.out.println("----------------------------------------------------------------------");
+        int maxDistance = 0;
+        for (int x = 0; x < blocks.length; x++) {
+            int leftIndex = x;
+            for (int i = x; i > 0; i--) { //go left
+                if (blocks[i - 1] >= blocks[i]) {
+                    leftIndex--;
+                } else {
+                    break;
+                }
             }
-        }
 
-        int rightIndex = startInd;
-        for (int i = startInd; i < blocks.length - 1; i++) { //go right
-            if (blocks[i + 1] >= blocks[i]) {
-                rightIndex++;
-            } else {
-                break;
+            int rightIndex = x;
+            for (int i = x; i < blocks.length - 1; i++) { //go right
+                if (blocks[i + 1] >= blocks[i]) {
+                    rightIndex++;
+                } else {
+                    break;
+                }
             }
-        }
 
-        int distance = rightIndex - leftIndex + 1;
-        System.out.println("Start index: " + startInd + ", frog-1 index: " + leftIndex + ", frog-2 index: " + rightIndex + ", Distance: " + distance);
-        return distance;
+            int distance = rightIndex - leftIndex + 1; //K-J+1
+            System.out.println("Start index: " + x + ", frog-1 index: " + leftIndex + ", frog-2 index: " + rightIndex + ", Distance: " + distance);
+            if (distance > maxDistance)
+                maxDistance = distance;
+        }
+        return maxDistance;
     }
 
 }

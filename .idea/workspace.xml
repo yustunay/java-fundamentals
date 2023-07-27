@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="941d8089-3c6f-41c9-8361-9b4750f50b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Frogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SmallestPositiveMissingInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JumpingFrogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JumpingFrogs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690029923033</updated>
       <workItem from="1690029924346" duration="968000" />
-      <workItem from="1690035999018" duration="39228000" />
+      <workItem from="1690035999018" duration="41680000" />
     </task>
     <servers />
   </component>
@@ -269,47 +267,47 @@
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/JumpingFrogs.java</url>
           <line>67</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/JumpingFrogs.java</url>
           <line>46</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/JumpingFrogs.java</url>
           <line>55</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/JumpingFrogs.java</url>
           <line>47</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/JumpingFrogs.java</url>
           <line>48</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/JumpingFrogs.java</url>
           <line>56</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/JumpingFrogs.java</url>
           <line>57</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/JumpingFrogs.java</url>
           <line>58</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Frogs.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/JumpingFrogs.java</url>
           <line>66</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
