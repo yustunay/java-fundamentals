@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="941d8089-3c6f-41c9-8361-9b4750f50b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CharacterOccurrenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StringReverserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CharacterOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CharacterOccurrence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringReverser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NthHighestSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NthHighestSalary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,16 +72,30 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CharacterOccurrenceTest">
-    <configuration name="FrequencyHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FrequencyHashMap" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
       <module name="JavaFundamentals" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReverser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringReverser" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="JavaFundamentals" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NthHighestSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NthHighestSalary" />
+      <module name="JavaFundamentals" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmallestPositiveMissingInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SmallestPositiveMissingInteger" />
       <module name="JavaFundamentals" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,33 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterOccurrenceTest.getNonRepeatedCharacters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaFundamentals" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CharacterOccurrenceTest" />
-      <option name="METHOD_NAME" value="getNonRepeatedCharacters" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringReverserTest.reverseStringV4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaFundamentals" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringReverserTest" />
-      <option name="METHOD_NAME" value="reverseStringV4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.NthHighestSalary" />
+        <item itemvalue="Application.SmallestPositiveMissingInteger" />
+        <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="JUnit.CharacterOccurrenceTest" />
-        <item itemvalue="JUnit.CharacterOccurrenceTest.getNonRepeatedCharacters" />
-        <item itemvalue="JUnit.StringReverserTest.reverseStringV4" />
-        <item itemvalue="Application.StringReverser" />
-        <item itemvalue="Application.FrequencyHashMap" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690029923033</updated>
       <workItem from="1690029924346" duration="968000" />
-      <workItem from="1690035999018" duration="51547000" />
+      <workItem from="1690035999018" duration="56361000" />
     </task>
     <servers />
   </component>

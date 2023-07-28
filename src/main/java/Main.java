@@ -28,17 +28,15 @@ public class Main {
 //        System.out.println(fruits.stream().sorted(Comparator.comparing(String::length)).map(String::toUpperCase).collect(Collectors.toList()));
 
         //longest name by first latter
-//        List<String> names = Arrays.asList("John", "Jane", "Alice", "Bob");
-//
-//        Map<Character, String> collect = names.stream()
-//                .sorted(Comparator.comparing(n -> n.charAt(0)))
-//                .collect(
-//                        Collectors.groupingBy(name -> name.charAt(0),
-//                                Collectors.reducing("", (n1, n2) -> n1.length() > n2.length() ? n1 : n2)));
-//
-//        System.out.println(collect);
+        List<String> names = Arrays.asList("John", "Jane", "Alice", "Bob");
 
+        Map<Character, String> collect = names.stream()
+                .sorted(Comparator.comparing(n -> n.charAt(0)))
+                .collect(
+                        Collectors.groupingBy(name -> name.charAt(0),
+                                Collectors.reducing("", (n1, n2) -> n1.length() > n2.length() ? n1 : n2)));
 
+        System.out.println(collect);
 
 
     }
