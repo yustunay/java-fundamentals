@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="941d8089-3c6f-41c9-8361-9b4750f50b05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PrimeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RockPaperScissorsGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NthHighestSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NthHighestSalary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,51 +72,49 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
+  <component name="RunManager" selected="Application.RockPaperScissorsGame">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch" />
       <module name="JavaFundamentals" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSort" />
       <module name="JavaFundamentals" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NthHighestSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NthHighestSalary" />
+    <configuration name="LinkedListReverser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedListReverser" />
       <module name="JavaFundamentals" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestPositiveMissingInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SmallestPositiveMissingInteger" />
+    <configuration name="PrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeNumbers" />
       <module name="JavaFundamentals" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterOccurrenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RockPaperScissorsGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RockPaperScissorsGame" />
       <module name="JavaFundamentals" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CharacterOccurrenceTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.NthHighestSalary" />
-        <item itemvalue="Application.SmallestPositiveMissingInteger" />
-        <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="JUnit.CharacterOccurrenceTest" />
+        <item itemvalue="Application.RockPaperScissorsGame" />
+        <item itemvalue="Application.PrimeNumbers" />
+        <item itemvalue="Application.LinkedListReverser" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690029923033</updated>
       <workItem from="1690029924346" duration="968000" />
-      <workItem from="1690035999018" duration="56361000" />
+      <workItem from="1690035999018" duration="63245000" />
     </task>
     <servers />
   </component>

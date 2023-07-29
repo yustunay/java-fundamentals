@@ -11,7 +11,7 @@ public class BinarySearch {
         int[] arr = {3, 7, 9, 11, 23, 34, 56, 89, 97};
         //int target = 89; //7
         //int target = 9; //2
-        int target = 102; //-1
+        int target = 56; //-1
         System.out.println(findTarget(arr, target));
 
        // List<Integer> list = Arrays.stream(arr).boxed().sorted().toList();
